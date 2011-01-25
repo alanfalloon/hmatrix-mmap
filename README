@@ -1,1 +1,5 @@
-Very simple! Needs a testsuite.
+hmatrix-mmap: Load hmatrix Data.Packed.Vector.Vector values using mmap
+
+This package is derived heavily from vector-mmap[1] by Daniel Peebles.
+
+[1] http://hackage.haskell.org/package/vector-mmap
