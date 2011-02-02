@@ -6,7 +6,7 @@ Author:         Daniel Peebles <pumpkingod@gmail.com>, Alan Falloon <alan.falloo
 Maintainer:     Alan Falloon <alan.falloon@gmail.com>
 Copyright:      (c) Daniel Peebles 2010, (c) Alan Falloon 2011
 Homepage:       http://github.com/alanfalloon/hmatrix-mmap
-Category:       Data, Data Structures
+Category:       System, Math
 Synopsis:       Memory map Vector from disk into memory efficiently
 Description:
         Memory map Data.Packed.Vector.Vector from disk into memory efficiently.
