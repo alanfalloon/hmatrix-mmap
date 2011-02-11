@@ -102,7 +102,7 @@ unsafeLazyMMapVectors path range vsize = do
   filesize <- withFile path ReadMode hFileSize
   let filesize' :: Int64
       filesize' = fI filesize
-  imgs <- unsafeLazyMMapVectors' filesize' path range vsize
+  imgs <- unsafeInterleaveIO $ unsafeLazyMMapVectors' filesize' path range vsize
   return (nimages range filesize', imgs)
       where
         nimages :: Maybe (Int64, Int64) -> Int64 -> Int64
