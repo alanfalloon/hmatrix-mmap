@@ -160,7 +160,7 @@ unsafeLazyMMapVectors' fileSize
 
 -- Maximum size for chunks
 maxChunkSize :: Int64
-maxChunkSize = fI (maxBound `div` 4 :: Int)
+maxChunkSize = fI (maxBound `div` 256 :: Int)
 
 -- Handy alias for 'fromIntegral'
 fI :: (Integral a, Num b) => a -> b
